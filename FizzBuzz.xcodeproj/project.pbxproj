@@ -15,6 +15,7 @@
 		8257BA561F5445970006DDD2 /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257BA551F5445970006DDD2 /* FizzBuzzUITests.swift */; };
 		8257BA641F5446320006DDD2 /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257BA631F5446320006DDD2 /* BrainTests.swift */; };
 		8257BA661F5446A10006DDD2 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257BA651F5446A10006DDD2 /* Brain.swift */; };
+		8257BA6C1F54741B0006DDD2 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257BA6B1F54741B0006DDD2 /* ViewControllerUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8257BA571F5445970006DDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8257BA631F5446320006DDD2 /* BrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrainTests.swift; path = ../BrainTests.swift; sourceTree = "<group>"; };
 		8257BA651F5446A10006DDD2 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		8257BA6B1F54741B0006DDD2 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				8257BA631F5446320006DDD2 /* BrainTests.swift */,
 				8257BA4C1F5445970006DDD2 /* Info.plist */,
+				8257BA6B1F54741B0006DDD2 /* ViewControllerUnitTests.swift */,
 			);
 			path = FizzBuzzTests;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8257BA6C1F54741B0006DDD2 /* ViewControllerUnitTests.swift in Sources */,
 				8257BA641F5446320006DDD2 /* BrainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +517,7 @@
 				8257BA5C1F5445970006DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8257BA5D1F5445970006DDD2 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				8257BA5F1F5445970006DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8257BA601F5445970006DDD2 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				8257BA621F5445970006DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
