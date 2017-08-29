@@ -27,5 +27,8 @@ class Game {
         }
     }
     
+    func reset() {
+        score = 0
+    }
     
 }

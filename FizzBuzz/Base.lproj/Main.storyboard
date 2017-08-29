@@ -26,10 +26,14 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hve-3t-nux">
                                 <rect key="frame" x="235" y="600" width="124" height="47"/>
+                                <accessibility key="accessibilityConfiguration" identifier="playAgainButton"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <state key="normal" title="Play Again">
                                     <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fmk-u3-8Vt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 / 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuh-fI-fbr">
                                 <rect key="frame" x="298.5" y="45" width="54.5" height="34.5"/>
@@ -123,6 +127,7 @@
                         <outlet property="fizzButton" destination="u5b-lR-kTg" id="Idc-3a-mOg"/>
                         <outlet property="fizzBuzzButton" destination="wHd-Lf-AeQ" id="FPq-FL-tFN"/>
                         <outlet property="numberButton" destination="7OR-5y-rQy" id="pKy-4W-vuy"/>
+                        <outlet property="playAgainButton" destination="Hve-3t-nux" id="bnC-Tm-NEr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

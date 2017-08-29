@@ -70,4 +70,10 @@ class ViewControllerUnitTests: XCTestCase {
         let newScore = viewController.gameScore
         XCTAssertEqual(newScore, 0)
     }
+    
+    func testResetGame(){
+        viewController.resetGame()
+        let newScore = viewController.gameScore
+        XCTAssertEqual(newScore, 0)
+    }
 }
