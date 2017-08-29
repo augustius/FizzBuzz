@@ -1,14 +1,14 @@
 //
-//  FizzBuzzUITests.swift
-//  FizzBuzzUITests
+//  ViewControllerUITests.swift
+//  FizzBuzz
 //
-//  Created by Cedric ZH Chan on 28/08/2017.
+//  Created by Cedric ZH Chan on 29/08/2017.
 //  Copyright © 2017 Cedric ZH Chan. All rights reserved.
 //
 
 import XCTest
 
-class FizzBuzzUITests: XCTestCase {
+class ViewControllerUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

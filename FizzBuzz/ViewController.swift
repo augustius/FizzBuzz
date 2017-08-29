@@ -20,6 +20,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func play(move: Move) {
+        guard let unwrappedGame = game else {
+            print("Game is nil!")
+            return
+        }
+        let response = unwrappedGame.play(move: move)
+        gameScore = response.score
+    }
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        guard let unwrappedScore = gameScore else {
+            print("Game score is nil")
+            return
+        }
 
 }
 
